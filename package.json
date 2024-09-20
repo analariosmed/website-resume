@@ -7,7 +7,7 @@
     "hugo",
     "portfolio"
   ],
-  "author": "Darshan Baral",
+  "author": "Ana Larios",
   "license": "MIT",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",

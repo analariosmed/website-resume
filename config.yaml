@@ -3,15 +3,13 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: Ana Larios
+  title: Backend Developer
   author: Ana Larios
-  description: Ana Larios
-  copyright: >-
-    powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+  description: Ana Larios's personal website
   theme:
-    mainTheme: dark
-    showAttribute: true
+    mainTheme: daek
+    # ana
+    showAttribute: false 
     singlePage: false
   favicons:
     use: true
@@ -25,8 +23,8 @@ params:
 
   profile:
     name: "Ana Larios"
-    tagline: Title
-    location: "City Name, ST"
+    tagline: "Developer"
+    location: "Montreal, Canada"
     photo: profile.jpg
   social:
     title: Links
@@ -34,24 +32,11 @@ params:
       - icon: fab fa-linkedin-in
         url: "#"
         title: LinkedIn
-      - icon: fab fa-stack-overflow
-        url: "#"
         title: StackOverflow
       - icon: fab fa-github
         url: "#"
         title: GitHub
-      - icon: fab fa-twitter
-        url: "#"
-        title: Twitter
-      - icon: fab fa-orcid
-        url: "#"
-        title: Orcid
-      - icon: ai ai-google-scholar
-        url: "#"
-        title: Google Scholar
-      - icon: fab fa-researchgate
-        url: "#"
-        title: ResearchGate
+
   showInAccordion:
     - item: aboutme
       expand: true
@@ -64,76 +49,122 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: Passionate about continuous learning and professional growth. With experience in quality engineering, customer service, and project management, my journey reflects a constant commitment to learning and growth. Now focused on programming, I am ready to merge my previous experience with my passion for innovation and problem-solving in the technology field.
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Account Executive
+        dates: 2023-2024 
+        company:  Visque
+        url: "https://visque.ca"
         details: |1-
           - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
+          - Grow the [company portfolio](#) through onboarding new customers.
+          - Maintain existing customer relationships .
+          - Manage [inventory](#) logistics and create [packing lists](#) and Advanced Shipping Notices [(ASNs)(#) for customers, ensuring accurate and timely shipments.
+          - Provide advice and technical support to customers and business partners of the product.
+          - Maintain records of [payment processing](#) and documentation.
+          - Manage [export documentation](#), ensuring compliance with international regulations for efficient cross-border transactions. 
+      - position: Field Sales Engineer
+        dates: 2020-2023
         url: "#"
         company: Company Name
+        details: |1-
+          - Developed customer product solutions.
+          - Planned and oversaw advertising and promotion activities, including print, online, electronic, and media.
+          - Monitored competitor products, sales, and marketing activities.
+          - Represented the company at trade association meetings to promote the product.
+          - Provide advice and technical support to customers and business partners of the product.
+          - Collaborated in maintaining relationships, negotiating, and closing deals with key clients.
+          - Verified rates, assessed fees, and ensured timely payment of invoices
+      - position: Apperance Coordinator
+        dates: 2019-2020
+        url: "https://mabeglobal.com"
+        company: Mabe
+        details: |1-
+          - Coordinated the Quality Appearance department.
+          - Implemented FMEA in the appearance process.
+          - Managed customer service based on appearance defects.
+          - Implemented control plans for new projects.
+          - Audited quality appearance of new projects.
+          - Evaluated current products to maintain quality standards.
+          - Conducted strategic evaluations of quality  appearance attributes compared to benchmark brands.
+      - position: Customer Quality Engineer
+        dates: 2018-2022
+        url: "https://mabeglobal.com"
+        company: Mabe
+        details: |1-
+          - Developed quality projects based on Service Call Rate.
+          - Resolved major failures using 8D tools.
+          - Analyzed top failures based on Service Call Rate trends.
+          - Improved quality in Canada’s warehouses.
+          - Communicated report solutions and Service Call Rate improvements to key clients.
+          - Approved quality at the project implementation committee.
+      - position: Quality Management System Specialist
+        dates: 2016-2018
+        url: "https://mabeglobal.com"
+        company: Mabe
+        details: |1-
+          - Coordinated the Quality Management System.
+          - Implemented ISO 9001 (Certified March 2017).
+          - Coordinated Quality System Certifications(ISO 9001, NOM 003, and more).
+          - Developed and performed quality audits.
+          - Optimized processes for efficiency in error corrections.
+          - Approved and administered Technical Documentation.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: Information Technology Programmer-Analyst
+        college: La Salle College 
+        dates: Jan 2023- Dec 2024 (Expected)
+        # thesis_title: "Effect of humans on other humans: a study of human behavior."
+        # thesis_url: "#"
+      - degree: Bachelor’s Degree Industrial and Systems Engineer
+        college: Universidad TecMilenio 
+        dates: 2018-2021
+        # thesis_title: "Effect of humans on other humans: a study of human behavior."
+        # thesis_url: "#"
+      - degree: Bachelor’s Degree Business Administration
+        college: Universidad de las Américas, Puebla 
+        dates: 2010-2015
   publication:
-    title: Publications
-    icon: fas fa-book
-    format:
-      - date
-      - title
-      - authors
-      - journal
-    types:
-      - Journal Articles
-      - Proceedings
-    list:
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Journal Articles
-      - title: >-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        authors: "F Last, F Second, P secondary"
-        date: "2018"
-        journal: "Journal of Field 52 (16), 9033-9044"
-        url: "#"
-        type: Proceedings
+    # title: Publications
+    # icon: fas fa-book
+    # format:
+    #   - date
+    #   - title
+    #   - authors
+    #   - journal
+    # types:
+    #   - Journal Articles
+    #   - Proceedings
+    # list:
+    #   - title: >-
+    #       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    #       eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    #     authors: "F Last, F Second, P secondary"
+    #     date: "2018"
+    #     journal: "Journal of Field 52 (16), 9033-9044"
+    #     url: "#"
+    #     type: Journal Articles
+    #   - title: >-
+    #       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    #       eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    #     authors: "F Last, F Second, P secondary"
+    #     date: "2018"
+    #     journal: "Journal of Field 52 (16), 9033-9044"
+    #     url: "#"
+    #     type: Journal Articles
+    #   - title: >-
+    #       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    #       eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    #     authors: "F Last, F Second, P secondary"
+    #     date: "2018"
+    #     journal: "Journal of Field 52 (16), 9033-9044"
+    #     url: "#"
+    #     type: Proceedings
   project:
     title: Projects
     icon: fas fa-project-diagram
@@ -155,16 +186,16 @@ params:
     panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
+      - skill: "Java, C#"
         skillrating: 90
-      - skill: Skill 3
+      - skill: "Python, PHP"
         skillrating: 80
-      - skill: Skill 4
+      - skill: "Skill 4"
         skillrating: 50
   hobby:
     title: Hobbies
     icon: fas fa-gamepad
     list:
       - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Climbing
+      - hobby: Crossfit
